@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/client-combined-3.0.0-beta3-nodeps.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/cucumber-core-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/cucumber-java-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/cucumber-junit-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/cucumber-reporting-2.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/gherkin-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/phantomjsdriver-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/poi-3.15-beta2.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/poi-examples-3.15-beta2.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/poi-excelant-3.15-beta2.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/poi-ooxml-3.15-beta2.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/poi-ooxml-schemas-3.15-beta2.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/poi-scratchpad-3.15-beta2.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/saxon-dom-8.7.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/selenium-server-standalone-3.0.0-beta3.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
