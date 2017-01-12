@@ -31,7 +31,7 @@ public class FirstClass {
 		ReUsableFunctions.closeAllInstance();*/
 	}
 
-	/*@Test
+	@Test
 	public  void method2() throws Exception {
 		ReUsableFunctions.initiateDriver("Chrome");
 		ReUsableFunctions.launchWebsite("http://demo.guru99.com/V4/");
@@ -49,7 +49,7 @@ public class FirstClass {
 		Thread.sleep(2000);
 		ReUsableFunctions.closeAllInstance();
 	}
-*/	
+
 
 
 
