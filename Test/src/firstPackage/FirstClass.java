@@ -36,7 +36,7 @@ public class FirstClass {
 		ReUsableFunctions.initiateDriver("Chrome");
 		ReUsableFunctions.launchWebsite("http://demo.guru99.com/V4/");
 		ReUsableFunctions.enterTextValue(name, "Driver 2");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		ReUsableFunctions.closeAllInstance();
 	}    
         
