@@ -54,5 +54,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/pdfbox-app-2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/jxl-2.6.12.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
