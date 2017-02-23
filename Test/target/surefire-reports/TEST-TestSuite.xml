@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="32.075" tests="5" errors="0" skipped="0" failures="5">
+<testsuite name="TestSuite" time="69.19" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Eclipse\Workspace3\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3912828263451247480.tmp"/>
+    <property name="classworlds.conf" value="C:\Eclipse\Workspace3\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8218285448219085038.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.8.0_102/jre/bin/server;C:/Program Files/Java/jdk1.8.0_102/jre/bin;C:/Program Files/Java/jdk1.8.0_102/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\Git\cmd;C:\windows\system32;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,64 +60,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="method1" classname="firstPackage.FirstClass" time="6.726">
-    <failure message="org.openqa.selenium.support.ui.WebDriverWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;" type="java.lang.NoSuchMethodError">java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;
-	at secondPackage.ReUsableFunctions.waitForPageLoad(ReUsableFunctions.java:178)
-	at secondPackage.ReUsableFunctions.enterTextValue(ReUsableFunctions.java:87)
-	at firstPackage.FirstClass.method1(FirstClass.java:21)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 35001
-Only local connections are allowed.
-Feb 24, 2017 2:09:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="method3" classname="firstPackage.FirstClass" time="5.762">
-    <failure message="org.openqa.selenium.support.ui.WebDriverWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;" type="java.lang.NoSuchMethodError">java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;
-	at secondPackage.ReUsableFunctions.waitForPageLoad(ReUsableFunctions.java:178)
-	at secondPackage.ReUsableFunctions.enterTextValue(ReUsableFunctions.java:87)
-	at firstPackage.FirstClass.method3(FirstClass.java:43)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 48999
-Only local connections are allowed.
-Feb 24, 2017 2:09:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="method4" classname="firstPackage.SecondClass" time="8.164">
-    <failure message="org.openqa.selenium.support.ui.WebDriverWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;" type="java.lang.NoSuchMethodError">java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;
-	at secondPackage.ReUsableFunctions.waitForPageLoad(ReUsableFunctions.java:178)
-	at secondPackage.ReUsableFunctions.enterTextValue(ReUsableFunctions.java:87)
-	at firstPackage.SecondClass.method4(SecondClass.java:17)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 13604
-Only local connections are allowed.
-Feb 24, 2017 2:09:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="method6" classname="firstPackage.SecondClass" time="5.661">
-    <failure message="org.openqa.selenium.support.ui.WebDriverWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;" type="java.lang.NoSuchMethodError">java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;
-	at secondPackage.ReUsableFunctions.waitForPageLoad(ReUsableFunctions.java:178)
-	at secondPackage.ReUsableFunctions.enterTextValue(ReUsableFunctions.java:87)
-	at firstPackage.SecondClass.method6(SecondClass.java:38)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 37205
-Only local connections are allowed.
-Feb 24, 2017 2:09:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="method7" classname="secondPackage.FourthClass" time="5.762">
-    <failure message="org.openqa.selenium.support.ui.WebDriverWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;" type="java.lang.NoSuchMethodError">java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;
-	at secondPackage.ReUsableFunctions.waitForPageLoad(ReUsableFunctions.java:178)
-	at secondPackage.ReUsableFunctions.enterTextValue(ReUsableFunctions.java:87)
-	at secondPackage.FourthClass.method7(FourthClass.java:15)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 47104
-Only local connections are allowed.
-Feb 24, 2017 2:09:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
+  <testcase name="method1" classname="firstPackage.FirstClass" time="18.764"/>
+  <testcase name="method3" classname="firstPackage.FirstClass" time="11.865"/>
+  <testcase name="method4" classname="firstPackage.SecondClass" time="14.709"/>
+  <testcase name="method6" classname="firstPackage.SecondClass" time="12.756"/>
+  <testcase name="method7" classname="secondPackage.FourthClass" time="11.096"/>
 </testsuite>
