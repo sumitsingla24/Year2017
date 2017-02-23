@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="72055" started-at="2017-02-23T19:59:34Z" finished-at="2017-02-23T20:00:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="72055" started-at="2017-02-23T19:59:34Z" finished-at="2017-02-23T20:00:46Z">
+      <class name="firstPackage.FirstClass">
+        <test-method status="PASS" signature="method1()[pri:0, instance:firstPackage.FirstClass@506e6d5e]" name="method1" duration-ms="15900" started-at="2017-02-24T01:29:34Z" finished-at="2017-02-24T01:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method3()[pri:0, instance:firstPackage.FirstClass@506e6d5e]" name="method3" duration-ms="12991" started-at="2017-02-24T01:29:50Z" finished-at="2017-02-24T01:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- firstPackage.FirstClass -->
+      <class name="secondPackage.FourthClass">
+        <test-method status="PASS" signature="method7()[pri:0, instance:secondPackage.FourthClass@2acf57e3]" name="method7" duration-ms="14160" started-at="2017-02-24T01:30:32Z" finished-at="2017-02-24T01:30:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method7 -->
+      </class> <!-- secondPackage.FourthClass -->
+      <class name="firstPackage.SecondClass">
+        <test-method status="PASS" signature="method4()[pri:0, instance:firstPackage.SecondClass@7f63425a]" name="method4" duration-ms="14242" started-at="2017-02-24T01:30:03Z" finished-at="2017-02-24T01:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:firstPackage.SecondClass@7f63425a]" name="method6" duration-ms="14741" started-at="2017-02-24T01:30:17Z" finished-at="2017-02-24T01:30:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+      </class> <!-- firstPackage.SecondClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
