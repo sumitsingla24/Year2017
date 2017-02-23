@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="58391" started-at="2017-02-23T19:25:29Z" finished-at="2017-02-23T19:26:28Z">
+  <suite name="Suite" duration-ms="56926" started-at="2017-02-23T21:54:46Z" finished-at="2017-02-23T21:55:43Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="58391" started-at="2017-02-23T19:25:29Z" finished-at="2017-02-23T19:26:28Z">
+    <test name="Test" duration-ms="56926" started-at="2017-02-23T21:54:46Z" finished-at="2017-02-23T21:55:43Z">
       <class name="firstPackage.FirstClass">
-        <test-method status="PASS" signature="method1()[pri:0, instance:firstPackage.FirstClass@42d80b78]" name="method1" duration-ms="22000" started-at="2017-02-24T00:55:29Z" finished-at="2017-02-24T00:55:51Z">
+        <test-method status="PASS" signature="method1()[pri:0, instance:firstPackage.FirstClass@5649fd9b]" name="method1" duration-ms="21905" started-at="2017-02-24T03:24:46Z" finished-at="2017-02-24T03:25:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:firstPackage.FirstClass@42d80b78]" name="method2" duration-ms="18651" started-at="2017-02-24T00:55:51Z" finished-at="2017-02-24T00:56:10Z">
+        <test-method status="PASS" signature="method2()[pri:0, instance:firstPackage.FirstClass@5649fd9b]" name="method2" duration-ms="17979" started-at="2017-02-24T03:25:08Z" finished-at="2017-02-24T03:25:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="method3()[pri:0, instance:firstPackage.FirstClass@42d80b78]" name="method3" duration-ms="17709" started-at="2017-02-24T00:56:10Z" finished-at="2017-02-24T00:56:28Z">
+        <test-method status="PASS" signature="method3()[pri:0, instance:firstPackage.FirstClass@5649fd9b]" name="method3" duration-ms="17018" started-at="2017-02-24T03:25:26Z" finished-at="2017-02-24T03:25:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method3 -->

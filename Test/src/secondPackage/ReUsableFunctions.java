@@ -12,8 +12,13 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -22,6 +27,7 @@ import org.testng.asserts.SoftAssert;
 public class ReUsableFunctions {
 
 	private static WebDriver driver;
+	//private static RemoteWebDriver driver;
 	private static WebDriverWait driverWait;
 	private static WebElement wb;
 	static SoftAssert softassert = new SoftAssert();
@@ -37,7 +43,7 @@ public class ReUsableFunctions {
 		driver.manage().window().maximize();
 	}
 	
-	public static void initiateDriver (String browserName){
+	public static void initiateDriver (String browserName) throws MalformedURLException{
 		
 		switch (browserName) {
 		case "FireFox":
@@ -49,6 +55,7 @@ public class ReUsableFunctions {
 		case "IE":
 			System.setProperty("webdriver.ie.driver", "C:\\Eclipse\\JarFiles\\IEDriverServer.exe");
        	 	driver=new InternetExplorerDriver();
+			//driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),DesiredCapabilities.internetExplorer());
 			try {
 				driverWait = new WebDriverWait(driver,10);	
 			} catch (Exception e) {
@@ -57,8 +64,9 @@ public class ReUsableFunctions {
        	 	break;
 		
 		case "Chrome":
-			System.setProperty("webdriver.chrome.driver", "C:\\Eclipse\\JarFiles\\chromedriver.exe");
-       	 	driver=new ChromeDriver();
+			//System.setProperty("webdriver.chrome.driver", "C:\\Eclipse\\JarFiles\\chromedriver.exe");
+       	 	//driver=new ChromeDriver();
+			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),DesiredCapabilities.chrome());
 			try {
 				driverWait = new WebDriverWait(driver,10);	
 			} catch (Exception e) {

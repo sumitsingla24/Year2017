@@ -1,4 +1,34 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 72.82 sec - in TestSuite
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 32.945 sec <<< FAILURE! - in TestSuite
+method1(firstPackage.FirstClass)  Time elapsed: 6.726 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;
+	at secondPackage.ReUsableFunctions.waitForPageLoad(ReUsableFunctions.java:178)
+	at secondPackage.ReUsableFunctions.enterTextValue(ReUsableFunctions.java:87)
+	at firstPackage.FirstClass.method1(FirstClass.java:21)
+
+method3(firstPackage.FirstClass)  Time elapsed: 5.762 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;
+	at secondPackage.ReUsableFunctions.waitForPageLoad(ReUsableFunctions.java:178)
+	at secondPackage.ReUsableFunctions.enterTextValue(ReUsableFunctions.java:87)
+	at firstPackage.FirstClass.method3(FirstClass.java:43)
+
+method4(firstPackage.SecondClass)  Time elapsed: 8.164 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;
+	at secondPackage.ReUsableFunctions.waitForPageLoad(ReUsableFunctions.java:178)
+	at secondPackage.ReUsableFunctions.enterTextValue(ReUsableFunctions.java:87)
+	at firstPackage.SecondClass.method4(SecondClass.java:17)
+
+method6(firstPackage.SecondClass)  Time elapsed: 5.661 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;
+	at secondPackage.ReUsableFunctions.waitForPageLoad(ReUsableFunctions.java:178)
+	at secondPackage.ReUsableFunctions.enterTextValue(ReUsableFunctions.java:87)
+	at firstPackage.SecondClass.method6(SecondClass.java:38)
+
+method7(secondPackage.FourthClass)  Time elapsed: 5.762 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: org.openqa.selenium.support.ui.WebDriverWait.until(Lcom/google/common/base/Function;)Ljava/lang/Object;
+	at secondPackage.ReUsableFunctions.waitForPageLoad(ReUsableFunctions.java:178)
+	at secondPackage.ReUsableFunctions.enterTextValue(ReUsableFunctions.java:87)
+	at secondPackage.FourthClass.method7(FourthClass.java:15)
+
