@@ -16,23 +16,18 @@ public class FirstClass {
 	@Test
 	public  void method1() throws Exception {
 
-		ReUsableFunctions.initiateDriver("IE");
+		ReUsableFunctions.initiateDriver("Chrome");
 		ReUsableFunctions.launchWebsite("https://www.google.com/mail");
 		ReUsableFunctions.enterTextValue(username, "sumitsingla.24@gmail.com");
 		ReUsableFunctions.clickWebElement(nextButton);
-		ReUsableFunctions.enterTextValue(password, "jyotisumit");
+		ReUsableFunctions.enterTextValue(password, "1234");
 		ReUsableFunctions.clickWebElement(loginButton);
 		ReUsableFunctions.waitForPageLoad();
 		ReUsableFunctions.closeAllInstance();
-		/*
-		ReUsableFunctions.initiateDriver("FireFox");
-		ReUsableFunctions.launchWebsite("http://demo.guru99.com/V4/");
-		ReUsableFunctions.enterTextValue(name, "Driver 1");
-		ReUsableFunctions.closeAllInstance();*/
 	}
 
 	@Test
-	public  void method2() throws Exception {
+	public void method2() throws Exception {
 		ReUsableFunctions.initiateDriver("Chrome");
 		ReUsableFunctions.launchWebsite("http://demo.guru99.com/V4/");
 		ReUsableFunctions.enterTextValue(name, "Driver 2");
