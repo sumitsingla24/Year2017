@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57995" started-at="2017-02-24T02:09:31Z" finished-at="2017-02-24T02:10:29Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="57995" started-at="2017-02-24T02:09:31Z" finished-at="2017-02-24T02:10:29Z">
+      <class name="firstPackage.FirstClass">
+        <test-method status="PASS" signature="method1()[pri:0, instance:firstPackage.FirstClass@91161c7]" name="method1" duration-ms="24296" started-at="2017-02-24T07:39:31Z" finished-at="2017-02-24T07:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:firstPackage.FirstClass@91161c7]" name="method2" duration-ms="16386" started-at="2017-02-24T07:39:55Z" finished-at="2017-02-24T07:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method3()[pri:0, instance:firstPackage.FirstClass@91161c7]" name="method3" duration-ms="17287" started-at="2017-02-24T07:40:12Z" finished-at="2017-02-24T07:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- firstPackage.FirstClass -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -50,5 +50,17 @@
 	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/pdfbox-app-2.0.4.jar"/>
 	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/jxl-2.6.12.jar"/>
 	<classpathentry kind="lib" path="C:/Eclipse/JarFiles/selenium-server-standalone-3.1.0.jar"/>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
